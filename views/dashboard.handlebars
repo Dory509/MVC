@@ -1,0 +1,15 @@
+<section>
+    <h2>Your Dashboard</h2>
+    <button id="new-post-btn">+ New Post</button>
+
+    {{#each posts}}
+        <div class="post">
+            <h3>{{this.title}}</h3>
+            <p>{{this.content}}</p>
+            <button class="edit-post" data-id="{{this.id}}">Edit</button>
+            <button class="delete-post" data-id="{{this.id}}">Delete</button>
+        </div>
+    {{/each}}
+</section>
+
+<script src="/js/dashboard.js"></script>

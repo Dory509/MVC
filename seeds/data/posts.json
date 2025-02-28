@@ -1,0 +1,17 @@
+[
+    {
+        "title": "Introduction to Web Development",
+        "content": "Web development is a constantly evolving field with new technologies emerging every day.",
+        "user_id": 1
+    },
+    {
+        "title": "Understanding JavaScript Closures",
+        "content": "Closures are a fundamental concept in JavaScript that allow functions to retain access to their lexical scope.",
+        "user_id": 2
+    },
+    {
+        "title": "Why You Should Learn SQL",
+        "content": "SQL is an essential language for managing databases, and it's widely used across the tech industry.",
+        "user_id": 1
+    }
+]

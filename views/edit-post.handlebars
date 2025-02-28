@@ -1,0 +1,10 @@
+<form id="update-post-form" data-id="{{post.id}}">
+  <label for="post-title">Title:</label>
+  <input type="text" id="post-title" name="title" value="{{post.title}}" required>
+
+  <label for="post-content">Content:</label>
+  <textarea id="post-content" name="content" required>{{post.content}}</textarea>
+
+  <button type="submit">Update Post</button>
+  <button type="button" class="delete-post" data-id="{{post.id}}">Delete</button>
+</form>

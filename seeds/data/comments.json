@@ -1,0 +1,17 @@
+[
+    {
+        "content": "This is a fantastic post! Thanks for sharing.",
+        "user_id": 1,
+        "post_id": 2
+    },
+    {
+        "content": "Very informative, I learned a lot!",
+        "user_id": 2,
+        "post_id": 1
+    },
+    {
+        "content": "Great insights! Looking forward to more articles.",
+        "user_id": 3,
+        "post_id": 2
+    }
+]
