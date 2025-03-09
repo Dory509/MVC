@@ -30,6 +30,7 @@ router.post('/signup', async (req, res) => {
 router.post('/login', async (req, res) => {
     try {
         const userData = await User.findOne({ where: { username: req.body.username } });
+        console.log(userData);
         console.log(bcrypt.compareSync(req.body.password, userData.password));
         if (!userData || !bcrypt.compareSync(req.body.password, userData.password)) {
             res.status(400).json({ message: 'Incorrect username or password' });
