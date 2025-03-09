@@ -5,7 +5,6 @@ const editPostHandler = async (event) => {
     const content = document.querySelector('#post-content').value.trim();
     const postId = document.querySelector('#update-post-form').dataset.id;
 
-
     if (title && content) {
         const response = await fetch(`/api/posts/${postId}`, {
             method: 'PUT',
